@@ -1,0 +1,7 @@
+[
+    {"dia": "Lunes", "nombre": "Dr. Lautaro Gimenez", "especialidad": "Clinico", "prepaga": "SI", "img": "https://img.freepik.com/foto-gratis/doctor-brazos-cruzados-sobre-fondo-blanco_1368-5790.jpg?w=2000"},
+    {"dia": "Martes", "nombre": "Lic. Agustín Palacios", "especialidad": "Nutricionista", "prepaga": "NO", "img": "https://bosworthinstitute.com/wp-content/uploads/2020/07/Nutricionista-bosworth-carrera.png"},
+    {"dia": "Martes", "nombre": "Lic. Maria Cordoba", "especialidad": "Nutricionista", "prepaga": "NO", "img": "https://nutricionistahuelva.es/ficheros/servicios/psiconutricion_C_4.jpg"},
+    {"dia": "Miercoles", "nombre": "Dra. Rocio Matozo", "especialidad": "Pediatra", "prepaga": "SI", "img": "https://ximenamargain.com/wp-content/uploads/2021/07/DOCTORA-XIMENA-LINKS-PEDIATRA.jpg"},
+    {"dia": "Viernes", "nombre": "Dr. Gregorio Muñoz", "especialidad": "Cardiologia", "prepaga": "NO", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8a-31MUy64qk80BIpp8cpv8q273vQFMIkXBdWmnNU96bXD1fKfG5vYW82Nf-kRMq1VM&usqp=CAU"}
+]

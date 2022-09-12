@@ -84,6 +84,7 @@ async function traerDoctores() {
                 
                
               </div>
+          </div>
           `;
   });
   document.getElementById("card-doctores").innerHTML = html;

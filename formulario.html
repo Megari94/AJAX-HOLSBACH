@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Clinica Santa Ana</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="index.html"><b></b>Inicio</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="textoTurno" id="turnos"></div>
+    <form class="registro" id="formRegistro">
+        <center>
+            <h4>Reservas</h4>
+            <input class="control" type="text" name="name" id="nombres" placeholder="Nombre" />
+            <input class="control" type="text" name="apellidos" id="apellidos" placeholder="Apellido" />            
+            <input class="control" type="date" name="dia" id="dia" placeholder="Ingrese la fecha" />
+            <input class="control" type="time" min="8" max="20" step="3600" min="00:00" required name="orden" id="orden"
+                placeholder="Orden de llegada" />
+            <input class="control" type="text" name="email" id="email" placeholder="Email" />
+            <input class="control" type="text" name="telefono" id="telefono" placeholder="Teléfono" />
+
+
+            <button type="submit" class="enviar" id="button" value="Send Email">Enviar</button>
+            <button type="button" class="verTurno" id="verTurno">Ver turnos</button>
+            <p><i>Para cancelaciones comunicarse con secretaria al telefono 3624125457 o 3624155878.</i></p>
+        </center>
+    </form>
+    <footer class="pie" id="pie">
+        <div class="pie1">
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="img/telefono.png"></img>
+        </div>
+        <div class="pie2">
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><img src="img/mail.png"></img></a>
+        </div>
+        <div class="pie3">
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="https://www.google.com/maps" target="_blank"><img src="img/ubicacion.png"></img></a>
+        </div>
+
+    </footer>
+    <script src="main2.js"></script>"
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</body>
+
+</html>

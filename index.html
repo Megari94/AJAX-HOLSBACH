@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="estilos.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <title>Clinica Santa Ana</title>
@@ -18,31 +19,42 @@
         <a href="#"><b></b>Inicio</a>
       </li>
       <li>
-        <a href="#"><b></b>Primero</a>
+        <a href="#sanitaria"><b></b>Primero</a>
       </li>
       <li>
-        <a href="#"><b></b>Segundo</a>
+        <a href="#linea"><b></b>Segundo</a>
       </li>
       <li>
-        <a href="#"><b></b>Tercero</a>
+        <a href="#noticias"><b></b>Tercero</a>
+      </li>
+      <li>
+        <a href="#pie"><b></b>Cuarto</a>
       </li>
     </ul>
   </nav>
+  <div class="slider-container">
 
-  <div class="encabezado-img"></div>
-
-  <div class="container">
+    <img class="slider-item" src="img/portada4.png" />
+  </div>
+  <div class="container" id="sanitaria">
     <img src="img/doctora.png" class="doctora" />
     <div clas="info">
       <h4>Proporcionamos</h4>
       <h2>Atención sanitaria total</h2>
       <p class="txt">
-        Brindamos los servicios médicos más completos, por lo que cada persona
-        podría tener la oportunidad de recibir ayuda médica de calidad. La
-        excelencia clínica, la diversidad y el acceso a tecnología innovadora
-        son características distintivas de la experiencia de educación médica
-        de posgrado. Nuestros residentes, becarios y personal de renombre
-        comparten su experiencia trabajando para su bienestar.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sequi eligendi esse ratione aliquid, dicta minus
+        dignissimos vero laborum voluptatem. Ullam natus dolorem cumque magni quod voluptatum recusandae facere
+        similique?
+        Similique esse quos molestiae tenetur dolor quas alias repudiandae! Accusamus veniam aperiam officia! Veritatis
+        ex, dignissimos, at aperiam nulla illo quaerat nostrum quod ducimus itaque incidunt voluptate debitis eius
+        fugit!
+        Non at quisquam quod atque doloribus hic mollitia ut aperiam expedita asperiores provident maxime, consequuntur
+        ipsa. Omnis, perspiciatis molestias adipisci provident odit, similique suscipit aspernatur rem nam eligendi quos
+        distinctio?
+        Assumenda dolores eveniet suscipit impedit, nisi earum ad labore exercitationem soluta fugit aspernatur. Tenetur
+        asperiores voluptas a est neque impedit, eveniet maxime. Vitae molestiae mollitia ad rem nostrum perferendis
+        aperiam?
+
       </p>
       <p>
         <b>Intentamos hacer todo lo posible para ayudarlo y brindarle
@@ -50,9 +62,62 @@
       </p>
     </div>
   </div>
+  <div class="iconos">
+    <div>
+      <img class="ic" src="img/cardio2.png">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, alias ab tempore explicabo sapiente sit iure
+        magni nostrum vero commodi rem fugiat animi, deserunt debitis velit obcaecati cupiditate. Accusamus, cum!</p>
+    </div>
+    <div>
+      <img class="ic" src="img/maletin.png">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, alias ab tempore explicabo sapiente sit iure
+        magni nostrum vero commodi rem fugiat animi, deserunt debitis velit obcaecati cupiditate. Accusamus, cum!</p>
+    </div>
+    <div>
+      <img class="ic" src="img/ambulancia.png">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, alias ab tempore explicabo sapiente sit iure
+        magni nostrum vero commodi rem fugiat animi, deserunt debitis velit obcaecati cupiditate. Accusamus, cum!</p>
+    </div>
+    <div>
+      <img class="ic" src="img/diente.png">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, alias ab tempore explicabo sapiente sit iure
+        magni nostrum vero commodi rem fugiat animi, deserunt debitis velit obcaecati cupiditate. Accusamus, cum!</p>
+    </div>
 
-  <div>
-    <img src="img/turno.png" class="online" />
+
+  </div>
+  <div class="iconos">
+    <div>
+      <img class="ic" src="img/pastilla.png">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, alias ab tempore explicabo sapiente sit iure
+        magni nostrum vero commodi rem fugiat animi, deserunt debitis velit obcaecati cupiditate. Accusamus, cum!</p>
+    </div>
+    <div>
+      <img class="ic" src="img/tubito.png">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, alias ab tempore explicabo sapiente sit iure
+        magni nostrum vero commodi rem fugiat animi, deserunt debitis velit obcaecati cupiditate. Accusamus, cum!</p>
+    </div>
+    <div>
+      <img class="ic" src="img/esteto.png">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, alias ab tempore explicabo sapiente sit iure
+        magni nostrum vero commodi rem fugiat animi, deserunt debitis velit obcaecati cupiditate. Accusamus, cum!</p>
+    </div>
+    <div>
+      <img class="ic" src="img/inyec.png">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, alias ab tempore explicabo sapiente sit iure
+        magni nostrum vero commodi rem fugiat animi, deserunt debitis velit obcaecati cupiditate. Accusamus, cum!</p>
+    </div>
+  </div>
+  <div class="consulta-online" id="linea">
+
     <div class="imagenTurno">
       <h4 class="h4-turno">Obtenga una consulta en línea</h4>
       <p class="txtTurno">
@@ -65,42 +130,34 @@
       <p class="p-turno"><b>Dé el primer paso para ayudar</b></p>
     </div>
   </div>
-
   <div class="tarjeta" id="card-doctores"></div>
-
   <h3 id="respuesta" class="text-center fw-light"></h3>
-  <div class="textoTurno" id="turnos"></div>
+  <div class="noticias" id="noticias"></div>
+  <div class="noticias2" id="noticias2"></div>
+  <footer class="pie" id="pie">
+    <div class="pie1">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <img src="img/telefono.png"></img>
+    </div>
+    <div class="pie2">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><img src="img/mail.png"></img></a>
+    </div>
+    <div class="pie3">
+      <h3>Lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <a href="https://www.google.com/maps" target="_blank"><img src="img/ubicacion.png"></img></a>
+    </div>
 
-  <form class="registro" id="formRegistro">
-    <center>
-      <h4>Reservas</h4>
-      <input class="control" type="text" name="nombres" id="nombres" placeholder="Nombre" />
-      <input class="control" type="text" name="apellidos" id="apellidos" placeholder="Apellido" />
-      <input class="control" type="date" name="dia" id="dia" placeholder="Ingrese la fecha" />
-      <input class="control" type="time" min="08:00" max="20:00" required name="orden" id="orden"
-        placeholder="Orden de llegada" />
-      <input class="control" type="text" name="telefono" id="telefono" placeholder="Teléfono" />
-      <input class="control" type="text" name="doctor" id="doctor" placeholder="Doctor" />
-      <textarea name="comentario">Comentarios</textarea>
-      <button type="submit" class="enviar">Enviar</button>
-      <button type="button" class="verTurno" id="verTurno">Ver turnos</button>
-    </center>
-  </form>
-
-  <div class="noticias" id="noticias">
-
-  </div>
-  <div class="noticias" id="noticias2">
-
-  </div>
-
-
-  <footer class="pie">
-    <p>Tambien puedes contactanos por nuestros medios directos</p>
-    <p>Telefonos: 362484881 / 3624489785</p>
-    <p>clinica@santa-ana.com</p>
   </footer>
-
   <script src="main.js"></script>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>

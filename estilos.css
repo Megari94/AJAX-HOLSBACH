@@ -170,7 +170,7 @@ body {
  .consulta-online{
   display: flex;
   text-align: left;
-  background-image: url(/img/turno.png);
+  background-image: url(img/turno.png);
   background-size: cover; 
   height: 600px;
  }
